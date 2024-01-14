@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YouTube Replica</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body style="padding-bottom: 20px">
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="icons/youtube-logo.svg" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <!--put position absolute inside position relative-->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg" />
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg" />
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">14</div>
+        </div>
+        <img class="current-user-picture" src="icons/pp-ghibli.jpg" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg" alt="" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-shorts-logo-15253.svg" alt="" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg" alt="" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library-yt.svg" alt="" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/5lEp4djm4s0?si=2tcpmw3mSSboUdwF"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/moist.webp" />
+            </a>
+            <div class="video-time">8:08</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a href="https://www.youtube.com/@WIRED" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="image-11/wired-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/wired-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">WIRED</div>
+                  <div class="channel-tooltip-stats">10.7M Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/5lEp4djm4s0?si=2tcpmw3mSSboUdwF"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  MoistCr1TiKaL Answers The Web's Most Searched Questions |
+                  WIRED
+                </p>
+              </a>
+              <p class="video-author">WIRED</p>
+              <p class="video-stats">5.2M views &#183; 1 month ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/7dYTw-jAYkY?si=9l-rI5sZHs9BsN2W"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/mrbeast-thumbnail.webp" />
+            </a>
+            <div class="video-time">18:39</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a href="https://www.youtube.com/@MrBeast" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">MrBeast</div>
+                  <div class="channel-tooltip-stats">215M Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/7dYTw-jAYkY?si=9l-rI5sZHs9BsN2W"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">I Spent 7 Days Buried Alive</p>
+              </a>
+              <p class="video-author">MrBeast &#10003;</p>
+              <p class="video-stats">75M views &#183; 4 Months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/i5zQ7q0cMbs?si=wmc93gcoNxcF9Tqg"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/xooos-green.webp" />
+            </a>
+            <div class="video-time">2:34</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a href="https://www.youtube.com/@xooos" target="_blank">
+                  <img
+                    class="profile-picture"
+                    src="image-11/xooos-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">xooos 수스</div>
+                  <div class="channel-tooltip-stats">1.62M Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/i5zQ7q0cMbs?si=wmc93gcoNxcF9Tqg"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">Out of time - The Weeknd Cover</p>
+              </a>
+              <p class="video-author">Xooos</p>
+              <p class="video-stats">7.8M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/ebMQ_4qM_bI?si=dTjr7mcVE99HK4jh"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/Ghibli-Music.webp" />
+            </a>
+            <div class="video-time">1:00:11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@LofiCetral2022"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="image-11/lofi-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">Lofi Central</div>
+                  <div class="channel-tooltip-stats">1.77K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/ebMQ_4qM_bI?si=dTjr7mcVE99HK4jh"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">Ghibli music Lo-Fi 1 hour version</p>
+              </a>
+              <p class="video-author">Lofi Central</p>
+              <p class="video-stats">1.3M views &#183; 4 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/XEEcxYzNOfI?si=zD575YYW2Qys3qct"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/laptop-thumbnail.webp" />
+            </a>
+            <div class="video-time">9:19</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@HardwareCanucks"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="image-11/hardware-canucks-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">Hardware Canucks</div>
+                  <div class="channel-tooltip-stats">1.83M Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/XEEcxYzNOfI?si=zD575YYW2Qys3qct"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">Always Do THIS with a New Laptop</p>
+              </a>
+              <p class="video-author">Hardware Canucks</p>
+              <p class="video-stats">2.1M views &#183; 1 year ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img class="thumbnail" src="image-11/healing-thumbnail.webp" />
+            </a>
+            <div class="video-time">1:00:52</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@healing_craft"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-picture"
+                    src="image-11/healing-profile.jpg"
+                  />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="image-11/mrbeast-profile.jpg"
+                  />
+                  <div class="channel-tooltip-name">HealingCraft</div>
+                  <div class="channel-tooltip-stats">4.54K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  [Asmr] 빗소리와 함께하는 잔잔한 힐링 음악, 1시간 |
+                  마인크래프트 | 빗소리 | 수면 유도음악 | 마음이 편안해지는 음악
+                  |
+                </p>
+              </a>
+              <p class="video-author">Healing Craft</p>
+              <p class="video-stats">685K views &#183; 8 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=wR54bHHHaWU"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/invincible-bts-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">7:01</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a href="https://www.youtube.com/@PrimeVideoUK" target="_blank">
+                  <img class="profile-picture" src="icons/primevideo-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img
+                    class="channel-tooltip-picture"
+                    src="icons/primevideo-pfp.jpg"
+                  />
+                  <div class="channel-tooltip-name">
+                    Amazon Prime Video UK &amp; IE
+                  </div>
+                  <div class="channel-tooltip-stats">1.02M Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  Voiceover Recording With J.K. Simmons, Steven Yeun &amp;
+                  Sandra Oh | Invincible BTS |
+                </p>
+              </a>
+              <p class="video-author">Amazon Prime Video UK &amp; IE</p>
+              <p class="video-stats">1.5M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=lRGPyqQ-eV4"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/AmIDReamingpiano-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@samuelfupiano"
+                  target="_blank"
+                >
+                  <img class="profile-picture" src="icons/sf-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="icons/sf-pfp.jpg" />
+                  <div class="channel-tooltip-name">Samuel Fu Reborn</div>
+                  <div class="channel-tooltip-stats">57.8K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  &quot;Am I Dreaming&quot; (End Credit Song) - Spider-Man:
+                  Across the Spider-Verse (Piano Cover)
+                </p>
+              </a>
+              <p class="video-author">Samuel Fu Reborn</p>
+              <p class="video-stats">339K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=lRGPyqQ-eV4"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/AmIDReamingpiano-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@samuelfupiano"
+                  target="_blank"
+                >
+                  <img class="profile-picture" src="icons/sf-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="icons/sf-pfp.jpg" />
+                  <div class="channel-tooltip-name">Samuel Fu Reborn</div>
+                  <div class="channel-tooltip-stats">57.8K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  &quot;Am I Dreaming&quot; (End Credit Song) - Spider-Man:
+                  Across the Spider-Verse (Piano Cover)
+                </p>
+              </a>
+              <p class="video-author">Samuel Fu Reborn</p>
+              <p class="video-stats">339K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=lRGPyqQ-eV4"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/AmIDReamingpiano-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@samuelfupiano"
+                  target="_blank"
+                >
+                  <img class="profile-picture" src="icons/sf-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="icons/sf-pfp.jpg" />
+                  <div class="channel-tooltip-name">Samuel Fu Reborn</div>
+                  <div class="channel-tooltip-stats">57.8K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  &quot;Am I Dreaming&quot; (End Credit Song) - Spider-Man:
+                  Across the Spider-Verse (Piano Cover)
+                </p>
+              </a>
+              <p class="video-author">Samuel Fu Reborn</p>
+              <p class="video-stats">339K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=lRGPyqQ-eV4"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/AmIDReamingpiano-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@samuelfupiano"
+                  target="_blank"
+                >
+                  <img class="profile-picture" src="icons/sf-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="icons/sf-pfp.jpg" />
+                  <div class="channel-tooltip-name">Samuel Fu Reborn</div>
+                  <div class="channel-tooltip-stats">57.8K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  &quot;Am I Dreaming&quot; (End Credit Song) - Spider-Man:
+                  Across the Spider-Verse (Piano Cover)
+                </p>
+              </a>
+              <p class="video-author">Samuel Fu Reborn</p>
+              <p class="video-stats">339K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a
+              href="https://www.youtube.com/watch?v=lRGPyqQ-eV4"
+              target="_blank"
+              class="video-link-title"
+            >
+              <img
+                class="thumbnail"
+                src="image-11/AmIDReamingpiano-thumbnail.webp"
+              />
+            </a>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="channel-picture-container">
+                <a
+                  href="https://www.youtube.com/@samuelfupiano"
+                  target="_blank"
+                >
+                  <img class="profile-picture" src="icons/sf-pfp.jpg" />
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="icons/sf-pfp.jpg" />
+                  <div class="channel-tooltip-name">Samuel Fu Reborn</div>
+                  <div class="channel-tooltip-stats">57.8K Subscribers</div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <a
+                href="https://youtu.be/qWSMNvVG2rM?si=TWODmoncYxDzBQZQ"
+                target="_blank"
+                class="video-link-title"
+              >
+                <p class="video-title">
+                  &quot;Am I Dreaming&quot; (End Credit Song) - Spider-Man:
+                  Across the Spider-Verse (Piano Cover)
+                </p>
+              </a>
+              <p class="video-author">Samuel Fu Reborn</p>
+              <p class="video-stats">339K views &#183; 5 months ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
